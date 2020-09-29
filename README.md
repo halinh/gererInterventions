@@ -5,10 +5,13 @@ Ce projet a pour le but de gérer des interventions.
 
 Voici des API
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Methodes | Urls | Actions |
+| --- | --- |
+| GET | interventions | crérer une intervention |
+| PUT  | interventions | récupérer tous les interventions |
+| GET | interventions | récupérer une intervention par :id |
+| PUT  | interventions | mis à jour une intervention par :id |
+| DELETE | interventions | supprimer un intervention par :id |
 
 
 Technologies
