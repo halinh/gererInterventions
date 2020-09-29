@@ -6,7 +6,7 @@ Ce projet a pour le but de gérer des interventions.
 Voici des API
 
 | Methodes | Urls | Actions |
-| ------------- | ------------- |
+| --- | --- |
 | GET | /api/interventions | crérer une intervention |
 | PUT  | /api/interventions | récupérer tous les interventions |
 | GET | /api/interventions/:id | récupérer une intervention par :id |
