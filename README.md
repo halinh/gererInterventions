@@ -9,9 +9,9 @@ Voici des API
 | --- | --- |
 | GET | interventions | crérer une intervention |
 | PUT  | interventions | récupérer tous les interventions |
-| GET | interventions | récupérer une intervention par :id |
-| PUT  | interventions | mis à jour une intervention par :id |
-| DELETE | interventions | supprimer un intervention par :id |
+| GET | interventions | récupérer une intervention par  |
+| PUT  | interventions | mis à jour une intervention par  |
+| DELETE | interventions | supprimer un intervention par  |
 
 
 Technologies
