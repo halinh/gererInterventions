@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{%block body %}
+    <h1>Ajouter une intervention</h1>
+    <br/>
+    <form ng-submit="interventionAdd()">
+        <input type="text" ng-model="interventionLibelle" placeholder="Libellé" required/><br/>
+        <textarea ng-model="interventionDesp" rows="10" cols="30" placeholder="Description"></textarea><br/>
+        <input type="text" ng-model="interventionIntervenant" placeholder="Intervenant"/><br/>
+        <input type="text" ng-model="interventionLieu" placeholder="Lieu"/><br/>
+        <input type="date" ng-model="interventionDate"/><br/>
+        <button type="submit" ng-click="saveData()" class="btn btn-success">Soumettre</button><br/>
+    </form>
+{% endblock %}
+
+

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{%block body %}
+    <h1>Liste d'interventions</h1>
+    <br/>
+    <table class="table table-striped table-bordered table-sm">
+        <tr>
+            <th>Libellé</th>
+            <th>Description</th>
+            <th>Intervenant</th>
+            <th>Lieu</th>
+            <th><a href="" ng-click="sortField ='date'; reverse = !reverse">Date</a></th>
+            <th>Statut</th>
+            <th>Action</th>
+            <th>Action</th>
+        </tr>
+        <tr ng-repeat="intervention in interventionList | orderBy:sortField:reverse">
+            <td><span ng-bind="intervention.libelle"></span></td>
+            <td><span ng-bind="intervention.description"></span></td>
+            <td><span ng-bind="intervention.intervenant"></span></td>
+            <td><span ng-bind="intervention.lieu"></span></td>
+            <td><span ng-bind="intervention.date"></span></td>
+            <td><span ng-bind="intervention.status"></span></td>
+            <td><a href="" ng-click="modify()">Modifier</a></td>
+
+            <td><input type="checkbox" ng-model='intervention.featured'></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="btn btn-sm btn-danger" ng-click="interventionRemove()">Supprimer</button></td>
+        </tr>
+    </table>
+{% endblock %}
+
+

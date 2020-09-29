@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{%block body %}
+    <form ng-submit="interventionModify()">
+        <input type="hidden" ng-model="interventionId" required/><br/>
+        <input type="text" ng-model="interventionLibelle" required/><br/>
+        <textarea ng-model="interventionDesp" rows="10" cols="30"></textarea><br/>
+        <input type="text" ng-model="interventionIntervenant"/><br/>
+        <input type="text" ng-model="interventionLieu"/><br/>
+        <input type="date" ng-model="interventionDate"/><br/>
+        <button type="submit" ng-click="validData()">Valider</button><br/>
+    </form>
+{% endblock %}

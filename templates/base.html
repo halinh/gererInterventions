@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" ng-app="interventions">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gerer des interventions</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        {% load static %}
+    </head>
+
+    <body ng-controller="interventionsController">
+
+        {% include 'navbar.html' %}
+        {% block body %}
+            replace me
+        {% endblock %}
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+        <script src="{% static 'js/interventions.js' %}"></script>
+    </body>
+</html>
