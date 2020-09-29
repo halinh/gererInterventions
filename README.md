@@ -1,5 +1,4 @@
-# gererInterventions
-Ce projet a pour le but de gérer des interventions.
+# Gérer des interventions
 
 **Django Rest API Back-end**
 
