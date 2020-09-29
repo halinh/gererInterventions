@@ -7,11 +7,11 @@ Voici des API
 
 | Methodes | Urls | Actions |
 | --- | --- | --- |
-| GET | interventions | crérer une intervention |
-| PUT  | interventions | récupérer tous les interventions |
-| GET | interventions | récupérer une intervention par  |
-| PUT  | interventions | mis à jour une intervention par  |
-| DELETE | interventions | supprimer un intervention par  |
+| GET | /api/interventions | crérer une intervention |
+| PUT  | /api/interventions | récupérer tous les interventions |
+| GET | /api/interventions/:id | récupérer une intervention par :id |
+| PUT  | /api/interventions/:id | mis à jour une intervention par :id |
+| DELETE | /api/interventions/:id | supprimer un intervention par :id |
 
 
 Technologies
